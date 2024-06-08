@@ -1,0 +1,8 @@
+# Executables
+*.class
+
+# Ignore Directory
+.vscode
+
+# Ignored Files
+*.pdf
