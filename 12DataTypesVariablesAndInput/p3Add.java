@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class p3 {
+public class p3Add {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
