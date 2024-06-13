@@ -19,7 +19,7 @@ public class p15LCM
   }
 
 
-  static void lcm(int first,int second)
+  public static void lcm(int first,int second)
   {
     int min,max = first * second;
 

@@ -15,7 +15,7 @@ public class p20Armstrong
     armstrong(num);
   }
 
-  static void armstrong(int num)
+  public static void armstrong(int num)
   {
     int temp = num,sum=0;
     

@@ -14,7 +14,7 @@ public class p13Factorial {
   }
 
 
-  static void factorial(int term){
+  public static void factorial(int term){
     int fact = 1,i = 1;
 
     while(i <= term){

@@ -16,7 +16,7 @@ public class p11Multiplication
   }
 
 
-  static void Display(int num){
+  public static void Display(int num){
     int i = 1;
     while (i <= 10) { 
         System.out.println(num + " X " + i + " = " + (num * i));

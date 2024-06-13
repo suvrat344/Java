@@ -13,7 +13,7 @@ public class p12Sum {
     sum(n);
   }
 
-  static void sum(int term){
+  public static void sum(int term){
     int sum = 0,i=1;
 
     while(i <= term){

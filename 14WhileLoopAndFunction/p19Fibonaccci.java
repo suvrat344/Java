@@ -16,7 +16,7 @@ public class p19Fibonaccci
       fibonacci(term);
   }
 
-  static void fibonacci(int term){
+  public static void fibonacci(int term){
     int fib1 = 0,fib2 = 1,temp;
 
     System.out.print(fib1 + " " + fib2 + " ");

@@ -20,7 +20,7 @@ public class p16HCF
   }
 
 
-  static void hcf(int first,int second)
+  public static void hcf(int first,int second)
   {
     int min,max,quotient,remainder,gcd;
 

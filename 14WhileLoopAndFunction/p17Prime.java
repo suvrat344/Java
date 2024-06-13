@@ -16,7 +16,7 @@ public class p17Prime
   }
 
 
-  static void IsPrime(int num)
+  public static void IsPrime(int num)
   {
     int isPrime = 1,i = 2;
 

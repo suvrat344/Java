@@ -13,7 +13,7 @@ public class p14SumOfDigit {
   }
 
   
-  static void sumOfDigit(int num){
+  public static void sumOfDigit(int num){
     int sum = 0;
 
     while(num > 0){

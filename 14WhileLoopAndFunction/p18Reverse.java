@@ -15,7 +15,7 @@ public class p18Reverse
       reverse(num);
   }
 
-  static void reverse(int num)
+  public static void reverse(int num)
   {
     int rev = 0,temp = num;
 
