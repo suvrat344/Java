@@ -17,6 +17,7 @@ public class p12Arithmetic {
     float division = (float) first / second;
     int modulus = first % second;
 
+    System.out.println("Perform arithmetic operation");
     System.out.println(first + " + " + second + " = " + add);
     System.out.println(first + " - " + second + " = " + subtract);
     System.out.println(first + " * " + second + " = " + product);
