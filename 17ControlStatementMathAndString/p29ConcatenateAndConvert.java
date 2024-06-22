@@ -14,6 +14,6 @@ public class p29ConcatenateAndConvert
     System.out.print("Enter second string : ");
     String second = input.nextLine();
   
-    System.out.print("String after concatenation : " + first.concat(second).toUpperCase());
+    System.out.print("String after concatenation : " + first.concat(" ").concat(second).toUpperCase());
   }
 }
