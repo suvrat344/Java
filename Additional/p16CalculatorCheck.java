@@ -32,7 +32,7 @@ class Calculator
 }
  
 
-class UpdatedCalculator extends Calculator
+class UpdatedCalculator extends p11Calculator
 {
     public void remainder(double n1,double n2)
     {
@@ -53,7 +53,7 @@ public class p16CalculatorCheck
         System.out.print("Enter second number : ");
         double n2 = input.nextDouble();
 
-        Calculator c = new Calculator();
+        p11Calculator c = new p11Calculator();
         c.sum(n1,n2);
         c.subtraction(n1, n2);
         c.multiply(n1, n2);
