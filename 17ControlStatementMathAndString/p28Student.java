@@ -37,6 +37,6 @@ public class p28Student
       int age = input.nextInt();
 
       Student s1 = new Student(name,age);
-      System.out.print(s1.toString());
+      System.out.print(s1);
   }
 }
