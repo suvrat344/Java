@@ -9,8 +9,6 @@ class ClassStats
     try 
     {
       Class<?> c = Class.forName(cname);
-        //add code to return the count of 
-        //public methods in the given class
         Method[] methods = c.getMethods();
         return methods.length;
     }
