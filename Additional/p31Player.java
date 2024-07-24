@@ -46,17 +46,17 @@ class CricketPlayer
 
 public class p31Player 
 {
-  static void displayPlayers(List<String> bw,List<String> bt)
+  static void displayPlayers(List<CricketPlayer> bw,List<CricketPlayer> bt)
   {
-    for(int i = 0;i < bw.size();i++)
+    for(CricketPlayer p : bw)
     {
-      System.out.print(bw.get(i) + " ");
+      System.out.print(p.getName() + " ");
     }
 
     System.out.println();
     for(int i = 0;i < bt.size();i++)
     {
-      System.out.print(bt.get(i) + " ");
+      System.out.print(p.getName + " ");
     }
   }
 
@@ -75,22 +75,20 @@ public class p31Player
     player.add(p3);
     player.add(p4);
 
-    List<String> bw = new ArrayList<>();
-    List<String> bt = new ArrayList<>();
+    List<CricketPlayer> bw = new ArrayList<>();
+    List<CricketPlayer> bt = new ArrayList<>();
 
-    for (int i = 0; i < player.size(); i++) 
+    for (CricketPlayer p : player) 
     {
-        double avgRun = player.get(i).avgRuns();
-        double avgWicket = player.get(i).avgWickets();
 
-        if(avgRun > 25)
+        if(p.avgRuns() > 25)
         {
-          bt.add(player.get(i).getName());
+          bt.add(p);
         }
 
-        if(avgWicket > 1)
+        if(p.avgWickets() > 1)
         {
-          bw.add(player.get(i).getName());
+          bw.add(p);
         }
     }
     displayPlayers(bw, bt);
