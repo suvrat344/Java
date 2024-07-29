@@ -29,22 +29,29 @@ class Point
     {
         return "(" + x + ", " + y + ")";
     }
+
+    @Override
+    public int hashCode()
+    {
+        return 31 * x + y;
+    }
 }
+
 
 public class p17Point
 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter x-coordinate of first point : ");
-        int x1 = sc.nextInt();
+        int x1 = input.nextInt();
         System.out.print("Enter y-coordinate of first point : ");
-        int y1 = sc.nextInt();
+        int y1 = input.nextInt();
 
         System.out.print("Enter x-coordinate of second point : ");
-        int x2 = sc.nextInt();
+        int x2 = input.nextInt();
         System.out.print("Enter y-coordinate of second point : ");
-        int y2 = sc.nextInt();
+        int y2 = input.nextInt();
 	    
         Point p1 = new Point(x1, y1);
         Point p2 = new Point(x2, y2);

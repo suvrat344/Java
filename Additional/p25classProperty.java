@@ -9,8 +9,8 @@ class ClassStats
     try 
     {
       Class<?> c = Class.forName(cname);
-        Method[] methods = c.getMethods();
-        return methods.length;
+      Method[] methods = c.getMethods();
+      return methods.length;
     }
     catch(Exception e) 
     { 

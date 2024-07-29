@@ -18,9 +18,9 @@ import java.util.Scanner;
 
 class BankAccount
 {
-    int accountNumber;
-    String name;
-    int balance;
+    public int accountNumber;
+    public String name;
+    public int balance;
     final int minBalance = 100;
 
     private boolean checkMinBalance(int amount)
@@ -70,13 +70,13 @@ public class p20AccountCheck
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter amount : ");
-        int amnt = sc.nextInt( );
+        int amnt = input.nextInt( );
 
         System.out.print("Enter amount : ");
-        int amnt1 = sc.nextInt( );
+        int amnt1 = input.nextInt( );
 
         BankAccount b = new BankAccount(1890, "rahul", 1000);
         b.deposit(amnt);

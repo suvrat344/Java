@@ -75,6 +75,7 @@ public class p28ArrayObject
     {
           x[i] = input.nextInt();
     }
+
     ArrayExample<Integer> obj = new ArrayExample<>(x);
     System.out.print("Enter value to be counted : ");
     int s1 = input.nextInt();
@@ -86,6 +87,7 @@ public class p28ArrayObject
     {
           y[i] = input.next();
     }
+    
     ArrayExample<String> obj1 = new ArrayExample<>(y);
     System.out.print("Enter element to be searched : ");
     String s2 = input.next();

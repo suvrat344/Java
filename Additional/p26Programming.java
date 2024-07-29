@@ -1,6 +1,6 @@
 // Complete the Java code given below that takes as input a string array, where each string is assured to be either an integer or a double in string format. Your code must segregate the two types - integer and double - and print the double values followed by the integer values. For this, your code must iterate through the input array, and add each element to the appropriate array based on its type. 
  
-import java.util.Scanner;
+import java.util.*;
 
 class ConvertArrays
 {
@@ -38,7 +38,7 @@ class ConvertArrays
 
 	public <T> void display(T[] arr)
 	{
-		for(T elements:arr)
+		for(T elements : arr)
 		{
 			System.out.print(elements+" ");
 		}

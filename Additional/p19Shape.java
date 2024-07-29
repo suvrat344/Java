@@ -3,14 +3,18 @@
 
 import java.util.Scanner;
 
-class Shape{
-    public int area() {
+class Shape
+{
+    public int area() 
+    {
         return 0;
     }
-    public int volume() {
+    public int volume() 
+    {
         return 0;
     }
 }
+
 
 class Rectangle extends Shape
 {
@@ -45,8 +49,10 @@ class Cube extends Shape
     }
 }
 
-public class p19Shape{
-    private static void caller(Shape s) {
+public class p19Shape
+{
+    private static void caller(Shape s) 
+    {
         //check if s is of type Rectangle
         if(s instanceof Rectangle)
         {
@@ -60,16 +66,16 @@ public class p19Shape{
     }
     
 public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter width of rectangle : ");
-        int w = sc.nextInt();
+        int w = input.nextInt();
 
         System.out.print("Enter height of rectangle : ");
-        int h = sc.nextInt();
+        int h = input.nextInt();
 
         System.out.print("Enter edge of the cube : ");
-        int a = sc.nextInt();
+        int a = input.nextInt();
 
         caller(new Rectangle(w, h));
         caller(new Cube(a));

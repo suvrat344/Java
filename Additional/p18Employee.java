@@ -52,25 +52,25 @@ class ContactEmployee extends Employee
 public class p18Employee
 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter name of the first employee : ");
-        String nm1 = sc.nextLine();
+        String nm1 = input.nextLine();
 
         System.out.print("Enter name of the second employee : ");
-        String nm2 = sc.nextLine();
+        String nm2 = input.nextLine();
 
         System.out.print("Enter aadhar of the first employee : ");
-        long adh1 = sc.nextLong();
+        long adh1 = input.nextLong();
 
         System.out.print("Enter aadhar of the second employee : ");
-        long adh2 = sc.nextLong();
+        long adh2 = input.nextLong();
 
         System.out.print("Enter salary of the first employee : ");
-        double sal = sc.nextDouble();
+        double sal = input.nextDouble();
 
         System.out.print("Enter contact hour of the second employee : ");
-        int cont = sc.nextInt();
+        int cont = input.nextInt();
         
         Employee[] eArr = new Employee[2];
         eArr[0] = new Employee(nm1, adh1, sal);

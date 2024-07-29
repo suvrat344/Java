@@ -21,6 +21,7 @@ class RemoveStudent
 	public void detained(Map<String, Double> obj) 
 	{
 		Iterator<Map.Entry<String,Double>> iterator = obj.entrySet().iterator();
+		
 		while(iterator.hasNext())
 		{
 			Map.Entry<String,Double> entry = iterator.next();
