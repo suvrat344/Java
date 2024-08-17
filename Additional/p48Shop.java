@@ -1,10 +1,3 @@
-
-import java.net.http.WebSocket;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 // Write a Java program that takes as input 4 Shop objects and the list of Shop objects with attributes shop name, and number of items sold nsold. The program should add each customer name as key and number of items as value to the map object. After all objects to the map, display the shop name which has sold maximum number of items as shown in the test cases. Complete the program as specified below:
 // • Class Shop that has the following members:
 //    – String name, int nsold as private instance variable
@@ -18,6 +11,10 @@ import java.util.TreeMap;
 //    ∗ Creates a list of 4 Shop objects.
 //    ∗ Invokes method printShopName(list) to print the shop name which has sold maximum number of items.
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 class Shop
 {

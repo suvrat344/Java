@@ -1,16 +1,15 @@
 // Implement the code as instructed in the comments, such that it satisfies the given test cases.
 
-public class p24 {
-  
-}
 import java.util.*;
 
-interface Iterator{
+interface Iterator
+{
     public boolean has_next();
     public Object get_next();
 }
 
-class Sequence{
+class Sequence
+{
     private final int maxLimit = 80;
     private SeqIterator _iter = null;
     int[] iArr; 
@@ -54,11 +53,14 @@ class Sequence{
     }
 }
 
-class FClass{
-    public static void main(String[] args) {
+public class p24
+{
+    public static void main(String[] args) 
+    {
         Sequence sObj = new Sequence(5);
         Scanner sc = new Scanner(System.in); 
-        for(int i = 0; i < 5; i++) {
+        for(int i = 0; i < 5; i++) 
+        {
             sObj.addTo(sc.nextInt());
         }
         Iterator i = sObj.get_Iterator();
